@@ -17,7 +17,7 @@
 
 |        Difficulty        | Problem                                                                                                   |                          Solution                          |
 |:------------------------:|-----------------------------------------------------------------------------------------------------------|:----------------------------------------------------------:|
-| $${\color{green}Easy}$$	 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Code](./01-ARRAYS/remove-duplicates-from-sorted-array.py) |
+| $${\color{green}Easy}$$	 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Code](./neetcode-algorithms-for-beginners/tree/main/01-ARRAYS/remove-duplicates-from-sorted-array.py) |
 | $${\color{green}Easy}$$  | [Remove Element](https://leetcode.com/problems/remove-element/)                                           |                            Code                            |
 | $${\color{green}Easy}$$  | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)                                     |                            Code                            |
 | $${\color{green}Easy}$$  | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                           |                            Code                            |
