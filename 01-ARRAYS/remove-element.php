@@ -1,5 +1,6 @@
 <?php
 
+# https://leetcode.com/problems/remove-element/
 function removeElement(array &$nums, int $val): int
 {
     $k = 0;
