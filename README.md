@@ -23,7 +23,7 @@
 | $${\color{green}Easy}$$  | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                           |              [Python](./neetcode-algorithms-for-beginners/tree/main/01-ARRAYS/concatenation-of-array.py) \| [PHP](./neetcode-algorithms-for-beginners/tree/main/01-ARRAYS/concatenation-of-array.php)              |
 | $${\color{green}Easy}$$  | [Baseball Game](https://leetcode.com/problems/baseball-game/)                                             |                       [Python](./neetcode-algorithms-for-beginners/tree/main/01-ARRAYS/baseball-game.py) \| [PHP](./neetcode-algorithms-for-beginners/tree/main/01-ARRAYS/baseball-game.php)                       |
 | $${\color{green}Easy}$$  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                     |                   [Python](./neetcode-algorithms-for-beginners/tree/main/01-ARRAYS/valid-parentheses.py) \| [PHP](./neetcode-algorithms-for-beginners/tree/main/01-ARRAYS/valid-parentheses.php)                   |
-| $${\color{gold}Medium}$$ | [Min Stack](https://leetcode.com/problems/min-stack/)                                                     |                                                                                                        Code                                                                                                        |
+| $${\color{gold}Medium}$$ | [Min Stack](https://leetcode.com/problems/min-stack/)                                                     |                           [Python](./neetcode-algorithms-for-beginners/tree/main/01-ARRAYS/min-stack.py) \| [PHP](./neetcode-algorithms-for-beginners/tree/main/01-ARRAYS/min-stack.php)                           |
 
 ## LINKED LISTS
 
