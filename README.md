@@ -38,10 +38,11 @@
 
 ## RECURSION
 
-|       Difficulty        | Problem                                                             | Solution |
-|:-----------------------:|---------------------------------------------------------------------|:--------:|
-| $${\color{green}Easy}$$ | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) |   Code   |
-| $${\color{green}Easy}$$ | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)   |   Code   |
+|        Difficulty        | Problem                                                                   |                                                                                         Solution                                                                                         |
+|:------------------------:|---------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| $${\color{green}Easy}$$	 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](./neetcode-algorithms-for-beginners/tree/main/03-RECURSION/reverse-linked-list.py) \| [PHP](./neetcode-algorithms-for-beginners/tree/main/03-RECURSION/reverse-linked-list.php) |
+| $${\color{green}Easy}$$  | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)       |                                                                                           Code                                                                                           |
+| $${\color{green}Easy}$$  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)         |                                                                                           Code                                                                                           |
 
 ## SORTING
 
