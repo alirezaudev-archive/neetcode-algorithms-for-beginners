@@ -1,6 +1,7 @@
 from typing import *
 
 
+# https://leetcode.com/problems/merge-k-sorted-lists/
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
