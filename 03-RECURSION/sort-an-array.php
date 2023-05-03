@@ -21,6 +21,7 @@ class InsertionSortingSolution
         return $nums;
     }
 }
+
 class MergeSortingSolution
 {
     /**
@@ -74,9 +75,50 @@ class MergeSortingSolution
     }
 }
 
+class QuickSortingSolution
+{
+    /**
+     * Quick Sorting Algorithm
+     */
+    public function sortArray(array $nums): array
+    {
+        return $this->quickSort($nums, 0, count($nums) - 1);
+    }
+
+    private function quickSort(array &$nums, int $start, int $end): array
+    {
+        if ($end - $start + 1 <= 1) {
+            return $nums;
+        }
+
+        $pivot = $nums[$end];
+        $pointer = $start;
+
+        for ($i = $start; $i < $end + 1; $i++) {
+            if ($nums[$i] < $pivot) {
+                $tmp = $nums[$pointer];
+                $nums[$pointer] = $nums[$i];
+                $nums[$i] = $tmp;
+                $pointer++;
+            }
+        }
+
+        $nums[$end] = $nums[$pointer];
+        $nums[$pointer] = $pivot;
+
+        $this->quickSort($nums, $start, $pointer - 1);
+        $this->quickSort($nums,$pointer + 1, $end);
+
+        return $nums;
+    }
+}
+
+
 $nums = [2, 3, 4, 1, 6];
 $insertionSorted = (new InsertionSortingSolution())->sortArray($nums);
 $mergeSorted = (new MergeSortingSolution())->sortArray($nums);
+$quickSorted = (new QuickSortingSolution())->sortArray($nums);
 
 print_r($insertionSorted);
 print_r($mergeSorted);
+print_r($quickSorted);
