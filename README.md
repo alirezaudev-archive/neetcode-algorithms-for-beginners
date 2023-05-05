@@ -51,7 +51,7 @@
 | $${\color{gold}Medium}$$ | [Sort an Array](https://leetcode.com/problems/sort-an-array/)                                    |  [Python](./neetcode-algorithms-for-beginners/tree/main/03-RECURSION/sort-an-array.py) \| [PHP](./neetcode-algorithms-for-beginners/tree/main/03-SORTINGRECURSION/sort-an-array.php)   |
 |  $${\color{red}Hard}$$   | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                      | [Python](./neetcode-algorithms-for-beginners/tree/main/04-SORTING/merge-k-sorted-lists.py) \| [PHP](./neetcode-algorithms-for-beginners/tree/main/04-SORTING/merge-k-sorted-lists.php) |
 | $${\color{gold}Medium}$$ | [Kth Larges Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](./neetcode-algorithms-for-beginners/tree/main/04-SORTING/merge-k-sorted-lists.py) \| [PHP](./neetcode-algorithms-for-beginners/tree/main/04-SORTING/merge-k-sorted-lists.php) |
-| $${\color{gold}Medium}$$ | [Sort Colors](https://leetcode.com/problems/sort-colors/)                                        |                                                                                          Code                                                                                          |
+| $${\color{gold}Medium}$$ | [Sort Colors](https://leetcode.com/problems/sort-colors/)                                        |          [Python](./neetcode-algorithms-for-beginners/tree/main/04-SORTING/sort-colors.py) \| [PHP](./neetcode-algorithms-for-beginners/tree/main/04-SORTING/sort-colors.php)          |
 
 ## BINARY SEARCH
 
