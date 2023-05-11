@@ -55,10 +55,10 @@
 
 ## BINARY SEARCH
 
-|        Difficulty        | Problem                                                                 | Solution |
-|:------------------------:|-------------------------------------------------------------------------|:--------:|
-| $${\color{green}Easy}$$  | [Binary Search](https://leetcode.com/problems/binary-search/)           |   Code   |
-| $${\color{gold}Medium}$$ | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) |   Code   |
+|        Difficulty        | Problem                                                                 |                                                                                       Solution                                                                                       |
+|:------------------------:|-------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| $${\color{green}Easy}$$  | [Binary Search](https://leetcode.com/problems/binary-search/)           | [Python](./neetcode-algorithms-for-beginners/tree/main/05-BINARY-SEARCH/binary-search.py) \| [PHP](./neetcode-algorithms-for-beginners/tree/main/05-BINARY-SEARCH/binary-search.php) |
+| $${\color{gold}Medium}$$ | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) |                                                                                         Code                                                                                         |
 
 ## TREES
 
