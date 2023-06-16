@@ -30,11 +30,11 @@ class TreeNode:
     def print(self, sep='۰'):
         height = self.height()
         col = self.__getCol(height)
-        M = [[0 for _ in range(col)] for __ in range(height)]
+        M = [[None for _ in range(col)] for __ in range(height)]
         self.__printTree(M, self, col // 2, 0, height)
         for i in M:
             for j in i:
-                if j == 0:
+                if j is None:
                     print(sep, end=sep)
                 else:
                     print(j, end=sep)
