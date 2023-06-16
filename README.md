@@ -76,11 +76,11 @@
 
 ## BACKTRACKING
 
-|        Difficulty        | Problem                                                           | Solution |
-|:------------------------:|-------------------------------------------------------------------|:--------:|
-| $${\color{green}Easy}$$  | [Path Sum](https://leetcode.com/problems/path-sum/)               |   Code   |
-| $${\color{gold}Medium}$$ | [Subsets](https://leetcode.com/problems/subsets/)                 |   Code   |
-| $${\color{gold}Medium}$$ | [Combination Sum](https://leetcode.com/problems/combination-sum/) |   Code   |
+|        Difficulty        | Problem                                                           |                                                                                 Solution                                                                                 |
+|:------------------------:|-------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| $${\color{green}Easy}$$  | [Path Sum](https://leetcode.com/problems/path-sum/)               | [Python](./neetcode-algorithms-for-beginners/tree/main/07-BACKTRACKING/path-sum.py) \| [PHP](./neetcode-algorithms-for-beginners/tree/main/07-BACKTRACKING/path-sum.php) |
+| $${\color{gold}Medium}$$ | [Subsets](https://leetcode.com/problems/subsets/)                 |                                                                                   Code                                                                                   |
+| $${\color{gold}Medium}$$ | [Combination Sum](https://leetcode.com/problems/combination-sum/) |                                                                                   Code                                                                                   |
 
 ## HEAP PRIORITY QUEUE
 
