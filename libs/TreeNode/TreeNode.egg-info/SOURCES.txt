@@ -1,0 +1,5 @@
+setup.py
+TreeNode.egg-info/PKG-INFO
+TreeNode.egg-info/SOURCES.txt
+TreeNode.egg-info/dependency_links.txt
+TreeNode.egg-info/top_level.txt
