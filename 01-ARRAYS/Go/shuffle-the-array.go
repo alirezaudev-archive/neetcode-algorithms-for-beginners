@@ -1,5 +1,6 @@
 package main
 
+// https://leetcode.com/problems/shuffle-the-array/
 func shuffle(nums []int, n int) []int {
 	shuffled := make([]int, n*2)
 	for i := 0; i < n*2; i += 2 {

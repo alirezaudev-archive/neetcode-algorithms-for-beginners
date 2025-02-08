@@ -1,5 +1,6 @@
 package main
 
+// https://leetcode.com/problems/concatenation-of-array/
 func getConcatenation(nums []int) []int {
 	numsLength := len(nums)
 	result := make([]int, numsLength*2)
