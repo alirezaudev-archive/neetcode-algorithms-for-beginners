@@ -1,17 +1,17 @@
 package main
 
-import "../../libs/Go/listnode"
+import "../../libs/Go/linkedlist"
 
 func main() {
-	list1 := listnode.FromArray([]int{1, 2, 4})
-	list2 := listnode.FromArray([]int{1, 3, 4})
+	list1 := linkedlist.FromArray([]int{1, 2, 4})
+	list2 := linkedlist.FromArray([]int{1, 3, 4})
 
-	mergeTwoLists2(list1, list2).Print()
+	mergeTwoLists2(list1.Head, list2.Head).Print()
 }
 
 // https://leetcode.com/problems/merge-two-sorted-lists/
-func mergeTwoLists(list1 *listnode.ListNode, list2 *listnode.ListNode) *listnode.ListNode {
-	result := listnode.ListNode{}
+func mergeTwoLists(list1 *linkedlist.Node, list2 *linkedlist.Node) *linkedlist.Node {
+	result := linkedlist.Node{}
 
 	curr1 := list1
 	curr2 := list2
@@ -38,7 +38,7 @@ func mergeTwoLists(list1 *listnode.ListNode, list2 *listnode.ListNode) *listnode
 }
 
 // Solution 2
-func mergeTwoLists2(list1 *listnode.ListNode, list2 *listnode.ListNode) *listnode.ListNode {
+func mergeTwoLists2(list1 *linkedlist.Node, list2 *linkedlist.Node) *linkedlist.Node {
 	if list2 != nil && (list1 == nil || list2.Val < list1.Val) {
 		list1, list2 = list2, list1
 	}

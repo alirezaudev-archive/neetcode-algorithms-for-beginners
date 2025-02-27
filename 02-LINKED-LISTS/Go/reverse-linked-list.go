@@ -1,14 +1,13 @@
 package main
 
-import "../../libs/Go/listnode"
-
-func main() {
-	reverseList(listnode.FromArray([]int{1, 2, 3, 4})).Print()
+type ListNode struct {
+	Next *ListNode
+	Prev *ListNode
 }
 
 // https://leetcode.com/problems/design-browser-history/
-func reverseList(head *listnode.ListNode) *listnode.ListNode {
-	var prev *listnode.ListNode
+func reverseList(head *ListNode) *ListNode {
+	var prev *ListNode
 	curr := head
 	for curr != nil {
 		next := curr.Next
