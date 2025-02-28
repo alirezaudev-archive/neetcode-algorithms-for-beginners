@@ -3,7 +3,7 @@ package linkedlist
 import "fmt"
 
 type Node struct {
-	Val  any
+	Val  int
 	Next *Node
 	Prev *Node
 }
@@ -85,7 +85,7 @@ func (this *LinkedList) Reverse() *LinkedList {
 	return this
 }
 
-func (this *LinkedList) Get(index int) any {
+func (this *LinkedList) Get(index int) int {
 	if index >= this.Size || index < 0 {
 		return -1
 	}
@@ -98,7 +98,7 @@ func (this *LinkedList) Get(index int) any {
 	return curr.Val
 }
 
-func (this *LinkedList) Shift(val int) {
+func (this *LinkedList) AddAtHead(val int) {
 	newNode := &Node{Val: val, Next: this.Head}
 
 	if this.Size == 0 {
@@ -130,7 +130,7 @@ func (this *LinkedList) Insert(index int, val int) {
 	}
 
 	if index == 0 {
-		this.Shift(val)
+		this.AddAtHead(val)
 	} else if index == this.Size {
 		this.Append(val)
 	} else {
@@ -145,4 +145,49 @@ func (this *LinkedList) Insert(index int, val int) {
 		curr.Next = newNode
 		this.Size++
 	}
+}
+
+func (this *LinkedList) Shift() *Node {
+	if this.Size == 0 {
+		return nil
+	}
+
+	tmp := this.Head
+	this.Head = this.Head.Next
+	if this.Size == 1 {
+		this.Tail = this.Head
+	}
+	this.Size--
+
+	return tmp
+}
+
+func (this *LinkedList) Delete(index int) {
+	if index >= this.Size || index < 0 {
+		return
+	}
+
+	if index == 0 {
+		this.Head = this.Head.Next
+		if this.Size == 1 {
+			this.Tail = this.Head
+		}
+	} else if index+1 == this.Size {
+		this.Tail = this.Tail.Prev
+		this.Tail.Next = nil
+		if this.Size == 1 {
+			this.Head = this.Tail
+		}
+	} else {
+		curr := this.Head
+		for index > 0 {
+			index--
+			curr = curr.Next
+		}
+
+		curr.Prev.Next = curr.Next
+		curr.Next.Prev = curr.Prev
+	}
+
+	this.Size--
 }
