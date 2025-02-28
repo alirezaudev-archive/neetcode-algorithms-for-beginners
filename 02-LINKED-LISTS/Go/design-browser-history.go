@@ -1,5 +1,7 @@
 package main
 
+// https://leetcode.com/problems/design-browser-history/
+
 type Page struct {
 	url  string
 	next *Page

@@ -1,26 +1,10 @@
 package main
 
+// https://leetcode.com/problems/design-linked-list/
+
 import (
 	"fmt"
 )
-
-func main() {
-	list := FromArray([]int{1, 2, 3, 4, 5})
-	//list := Constructor()
-	list.Print()
-	fmt.Println("-----------")
-	list.AddAtHead(100)
-	list.Print()
-
-	list.DeleteAtIndex(1)
-	list.DeleteAtIndex(1)
-	list.DeleteAtIndex(1)
-	list.DeleteAtIndex(1)
-	list.DeleteAtIndex(0)
-	list.DeleteAtIndex(0)
-	list.Print()
-
-}
 
 type Node struct {
 	Val  int
