@@ -1,5 +1,11 @@
 package main
 
+import "fmt"
+
+func main() {
+	fmt.Printf("%v\n", quickSortArray([]int{6, 2, 4, 1, 3}, 0, 4))
+}
+
 // https://leetcode.com/problems/sort-an-array/
 func sortArray(nums []int) []int {
 	return mergeSortArray(nums, 0, len(nums)-1)
@@ -51,13 +57,37 @@ func mergeTwoArray(left, right []int) []int {
 	return merged
 }
 
-// sortArray insertion sort algorithm O(n^2) | Time Limit Exceeded
+// insertionSortArray insertion sort algorithm O(n^2) | Time Limit Exceeded
 func insertionSortArray(nums []int) []int {
 	for i := 0; i < len(nums)-1; i++ {
 		for j := i + 1; j > 0 && nums[j] < nums[j-1]; j-- {
 			nums[j], nums[j-1] = nums[j-1], nums[j]
 		}
 	}
+
+	return nums
+}
+
+// quickSortArray insertion sort algorithm O(n^2) | Time Limit Exceeded
+func quickSortArray(nums []int, start, end int) []int {
+	if start >= end {
+		return nums[start : end+1]
+	}
+
+	pivot := nums[end]
+	pointer := start
+
+	for i := start; i <= end; i++ {
+		if nums[i] < pivot {
+			nums[pointer], nums[i] = nums[i], nums[pointer]
+			pointer++
+		}
+	}
+
+	nums[pointer], nums[end] = pivot, nums[pointer]
+
+	quickSortArray(nums, start, pointer-1)
+	quickSortArray(nums, pointer, end)
 
 	return nums
 }
