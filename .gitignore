@@ -4,3 +4,4 @@ lib64
 vendor
 composer.json
 composer.lock
+main.go
