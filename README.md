@@ -11,7 +11,7 @@
 - [HASHING](#hashing)
 - [GRAPHS](#graphs)
 - [DYNAMIC PROGRAMMING](#dynamic-programming)
-- [BIG MANIPULATION](#big-manipulation)
+- [BIT MANIPULATION](#bit-manipulation)
 
 ## ARRAYS
 
@@ -120,7 +120,7 @@
 | $${\color{gold}Medium}$$ | [<img src="https://github.com/user-attachments/assets/6950cc51-fdeb-46d5-81d3-077788aa82c1" width="18" align="center"> Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)                       |   Code   |
 | $${\color{gold}Medium}$$ | [<img src="https://github.com/user-attachments/assets/6950cc51-fdeb-46d5-81d3-077788aa82c1" width="18" align="center"> Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) |   Code   |
 
-## BIG MANIPULATION
+## BIT MANIPULATION
 
 |       Difficulty        | Problem                                                                                                                                                                                   | Solution |
 |:-----------------------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
