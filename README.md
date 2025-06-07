@@ -1,4 +1,4 @@
-_## [Neetcode - Algorithms & Data Structures for Beginners](https://neetcode.io/courses/dsa-for-beginners/0)
+## [Neetcode - Algorithms & Data Structures for Beginners](https://neetcode.io/courses/dsa-for-beginners/0)
 
 - [ARRAYS](#arrays)
 - [LINKED LISTS](#linked-lists)
